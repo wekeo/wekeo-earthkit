@@ -1,0 +1,10 @@
+# Copyright holder
+EUMETSAT 
+
+ 
+# List of development authors
+
+Anna-Lena Erdmann, annalena.erdmann@eumetsat.int
+
+
+# Acknowledgements
