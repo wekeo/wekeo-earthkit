@@ -40,10 +40,10 @@ environment to include the dependencies listed.
 
 | Package   | Version | License      | Link                                                                 |
 |-----------|---------|--------------|----------------------------------------------------------------------|
-| python    | 3.10.1  | PSF-2.0      | [python.org](https://www.python.org/downloads/release/python-3100/)  |
+| python    | 3.10.18  | PSF-2.0      | [python.org](https://www.python.org/downloads/release/python-3100/)  |
 | hda       | 2.34    | Apache-2.0   | [anaconda.org/conda-forge/hda](https://anaconda.org/conda-forge/hda) |
 | matplotlib       | 3.10.6    | PSF-2.0   | [anaconda.org/conda-forge/matplotlib](https://anaconda.org/conda-forge/matplotlib) |
-| ipykernel | 7.0.0a2 | BSD-3-Clause | [anaconda.org/conda-forge/ipykernel](https://anaconda.org/conda-forge/ipykernel) |
+| ipykernel | 6.30.1 | BSD-3-Clause | [anaconda.org/conda-forge/ipykernel](https://anaconda.org/conda-forge/ipykernel) |
 | cartopy | 0.25.0 | BSD-3-Clause | [anaconda.org/conda-forge/cartopy](https://anaconda.org/conda-forge/cartopy) |
 | earthkit-data | 0.16.7 | Apache-2.0 | [anaconda.org/conda-forge/earthkit-data](https://anaconda.org/conda-forge/earthkit-data) |
 | xarray | 2025.9.0 | Apache-2.0 | [anaconda.org/conda-forge/xarray](https://anaconda.org/conda-forge/xarray) |
