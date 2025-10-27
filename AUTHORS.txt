@@ -1,5 +1,7 @@
 # Copyright holder
-EUMETSAT 
+copyright: 2025 European Union
+license: LICENSE.txt
+
 
  
 # List of development authors
