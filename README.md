@@ -48,3 +48,4 @@ environment to include the dependencies listed.
 | earthkit-data | 0.16.7 | Apache-2.0 | [anaconda.org/conda-forge/earthkit-data](https://anaconda.org/conda-forge/earthkit-data) |
 | xarray | 2025.9.0 | Apache-2.0 | [anaconda.org/conda-forge/xarray](https://anaconda.org/conda-forge/xarray) |
 | zarr | 2.18.3 | MIT | [anaconda.org/conda-forge/zarr](https://anaconda.org/conda-forge/zarr) |
+| pip  | 20.0.2  | MIT    | [anaconda.org/conda-forge/pip](https://anaconda.org/channels/conda-forge/packages/pip/overview)  |
