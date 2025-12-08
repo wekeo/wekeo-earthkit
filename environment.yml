@@ -9,7 +9,7 @@ dependencies:
   - matplotlib=3.10.6
   - python=3.10.18
   - zarr=2.18.3
+  - xarray=2025.9.0
   - pip
   - pip:
       - earthkit-data==0.16.7
-      - xarray==2025.9.0
