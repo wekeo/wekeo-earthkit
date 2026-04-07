@@ -35,17 +35,31 @@ latest Anaconda Python distribution for your operating system (https://www.anaco
 Anaconda Python distributions include Jupyter Notebook. We recommend setting up an
 environment as recommended below, however you may also adapt your current Python 
 environment to include the dependencies listed.
+
+You can create the recommended environment with:
+
+```bash
+conda env create -f environment.yml
+conda activate wekeo-earthkit
+```
  
 ### Dependencies
 
 | Package   | Version | License      | Link                                                                 |
 |-----------|---------|--------------|----------------------------------------------------------------------|
-| python    | 3.10.18  | PSF-2.0      | [python.org](https://www.python.org/downloads/release/python-3100/)  |
+| python    | 3.11.11 | PSF-2.0      | [python.org](https://www.python.org/)  |
+| cartopy | 0.24.0 | BSD-3-Clause | [anaconda.org/conda-forge/cartopy](https://anaconda.org/conda-forge/cartopy) |
+| earthkit-data | 0.19.3 | Apache-2.0 | [anaconda.org/conda-forge/earthkit-data](https://anaconda.org/conda-forge/earthkit-data) |
+| earthkit-plots | 0.6.1 | Apache-2.0 | [pypi.org/project/earthkit-plots](https://pypi.org/project/earthkit-plots/) |
+| fsspec | 2024.6.1 | BSD-3-Clause | [anaconda.org/conda-forge/fsspec](https://anaconda.org/conda-forge/fsspec) |
 | hda       | 2.34    | Apache-2.0   | [anaconda.org/conda-forge/hda](https://anaconda.org/conda-forge/hda) |
-| matplotlib       | 3.10.6    | PSF-2.0   | [anaconda.org/conda-forge/matplotlib](https://anaconda.org/conda-forge/matplotlib) |
-| ipykernel | 6.30.1 | BSD-3-Clause | [anaconda.org/conda-forge/ipykernel](https://anaconda.org/conda-forge/ipykernel) |
-| cartopy | 0.25.0 | BSD-3-Clause | [anaconda.org/conda-forge/cartopy](https://anaconda.org/conda-forge/cartopy) |
-| earthkit-data | 0.16.7 | Apache-2.0 | [anaconda.org/conda-forge/earthkit-data](https://anaconda.org/conda-forge/earthkit-data) |
-| xarray | 2025.9.0 | Apache-2.0 | [anaconda.org/conda-forge/xarray](https://anaconda.org/conda-forge/xarray) |
+| ipykernel | 6.29.5 | BSD-3-Clause | [anaconda.org/conda-forge/ipykernel](https://anaconda.org/conda-forge/ipykernel) |
+| ipython | 8.29.0 | BSD-3-Clause | [anaconda.org/conda-forge/ipython](https://anaconda.org/conda-forge/ipython) |
+| matplotlib | 3.9.2 | PSF-2.0 | [anaconda.org/conda-forge/matplotlib](https://anaconda.org/conda-forge/matplotlib) |
+| numpy | 1.26.4 | BSD-3-Clause | [anaconda.org/conda-forge/numpy](https://anaconda.org/conda-forge/numpy) |
+| pandas | 2.2.3 | BSD-3-Clause | [anaconda.org/conda-forge/pandas](https://anaconda.org/conda-forge/pandas) |
+| pip  | 24.3.1  | MIT    | [anaconda.org/conda-forge/pip](https://anaconda.org/conda-forge/pip)  |
+| xarray | 2024.5.0 | Apache-2.0 | [anaconda.org/conda-forge/xarray](https://anaconda.org/conda-forge/xarray) |
 | zarr | 2.18.3 | MIT | [anaconda.org/conda-forge/zarr](https://anaconda.org/conda-forge/zarr) |
-| pip  | 20.0.2  | MIT    | [anaconda.org/conda-forge/pip](https://anaconda.org/channels/conda-forge/packages/pip/overview)  |
+
+`earthkit-plots` is installed via `pip` from within the conda environment because it is not currently distributed on `conda-forge`.
